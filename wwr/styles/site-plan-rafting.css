@@ -7,13 +7,13 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #485696   ;
-  --secondary-color: #E7E7E7 ;
-  --accent1-color: #618B4A;
+  --secondary-color: #618B4A ;
+  --accent1-color: #E7E7E7;
   --accent2-color: #065143;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Inconsolata Bold 700";
-  --paragraph-font: Roboto, light 300;
+  --heading-font: Inconsolata;
+  --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #396E94;  /* headlines on a white background */ 
@@ -22,7 +22,7 @@ Fonts are separated by a | */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --nav-background-color: #618B4A;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
