@@ -1,5 +1,10 @@
 body{
     background-color: rgb(57, 57, 71);
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 }
 div content{
 
@@ -10,6 +15,7 @@ div content{
 
 nav a{
     text-align: center;
+    padding:35px;
 }
 #hero-msg h1{
     text-align: center;
@@ -43,6 +49,8 @@ nav a:hover{
 }
 .book, .join{
     background-color: rgb(232, 235, 189);
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover
 {
@@ -50,9 +58,13 @@ nav a:hover{
 }
 .msg{
     background-color: rgb(102, 101, 184);
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: lightsalmon;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 nav a{
     color: white;
@@ -62,6 +74,7 @@ nav a{
 }
 .home-title{
     color: white;
+    margin-top: 10px;
 }
 h4{
     color: white;
@@ -70,6 +83,8 @@ h4{
     color: white;
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
 }
 .book:hover, .join:hover{
     color:rgb(46, 46, 126)
@@ -78,7 +93,9 @@ h4{
     color: white;
 }
 .msg p{
-    color:white
+    color:white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3{
     color: white;
@@ -96,6 +113,7 @@ footer a:hover{
 }
 .icon{
     width:80;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -105,4 +123,37 @@ h3{
     text-align: center;
     color: #fcfbfb;
     text-decoration: underline;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.home-title{
+    font-size: 2em;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
+
+logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img
+{
+    border: 20 solid black;
+}
+main section img{
+    box-sizing:border-box;
+}
+img{
+    border: 550 solid black;
 }
